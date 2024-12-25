@@ -1,6 +1,6 @@
 @font-face {
 	font-family: flaticon;
-	src: url("../fonts/flaticon6f616f61.ttf?2cb5d732c8af52f4ac80f5ff39e089bf") format("truetype"), url("../fonts/flaticon6f616f61.woff?2cb5d732c8af52f4ac80f5ff39e089bf") format("woff"), url("../fonts/flaticon6f616f61.woff2?2cb5d732c8af52f4ac80f5ff39e089bf") format("woff2"), url("../fonts/flaticon6f616f61.eot?2cb5d732c8af52f4ac80f5ff39e089bf#iefix") format("embedded-opentype"), url("../fonts/flaticon6f616f61.svg?2cb5d732c8af52f4ac80f5ff39e089bf#flaticon") format("svg")
+	src: url("/blog/assets/fonts/flaticon6f616f61.ttf?2cb5d732c8af52f4ac80f5ff39e089bf") format("truetype"), url("../fonts/flaticon6f616f61.woff?2cb5d732c8af52f4ac80f5ff39e089bf") format("woff"), url("../fonts/flaticon6f616f61.woff2?2cb5d732c8af52f4ac80f5ff39e089bf") format("woff2"), url("../fonts/flaticon6f616f61.eot?2cb5d732c8af52f4ac80f5ff39e089bf#iefix") format("embedded-opentype"), url("../fonts/flaticon6f616f61.svg?2cb5d732c8af52f4ac80f5ff39e089bf#flaticon") format("svg")
 }
 
 i[class*=" flaticon-"]:before,
