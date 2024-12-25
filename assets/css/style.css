@@ -13,6 +13,37 @@
 /*-----------------
     # Extents
 -----------------*/
+
+body {
+  color: var(--base-color);
+  font-family: var(--base-font);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  overflow-x: hidden;
+}
+
+/* Example of unused styles to remove */
+.unused-class {
+  display: none;
+}
+
+.btn {
+  padding: 14px 25px;
+  border: 0;
+  border-radius: 5px;
+  background: var(--primary-color);
+  color: white;
+  font-weight: 800;
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: var(--heading-font);
+}
+
+
+
+
+
 .heading,
 h1,
 h2,
