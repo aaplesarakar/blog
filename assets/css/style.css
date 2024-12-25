@@ -2461,7 +2461,7 @@ ul li {
   top: 74%;
   width: 100%;
   height: 55%;
-  background-image: url(../img/shapes/title-underline.html);
+  background-image: url(/img/shapes/title-underline.html);
   background-size: 100% 100%;
 }
 
@@ -2591,7 +2591,7 @@ ul li {
   top: 90%;
   width: 100%;
   height: 30%;
-  background-image: url(../img/shapes/title-underline.html);
+  background-image: url(/img/shapes/title-underline.html);
   background-size: 100% 100%;
 }
 
@@ -3995,15 +3995,15 @@ ul li {
   width: 72px;
   height: 74px;
   background-size: 100% 100%;
-  background-image: url(../img/shapes/circle-red.html);
+  background-image: url(/img/shapes/circle-red.html);
 }
 
 .counter-item .counter-item__icon.counter-item__icon--green {
-  background-image: url(../img/shapes/circle-green.html);
+  background-image: url(/img/shapes/circle-green.html);
 }
 
 .counter-item .counter-item__icon.counter-item__icon--yellow {
-  background-image: url(../img/shapes/circle-yellow.html);
+  background-image: url(/img/shapes/circle-yellow.html);
 }
 
 .counter-item .counter-item__content {
@@ -4089,7 +4089,7 @@ ul li {
 .why-choose-area:before {
   z-index: -1;
   opacity: 0.02;
-  background: url(../img/background/why-choose-bg.html) no-repeat center/cover;
+  background: url(/img/background/why-choose-bg.html) no-repeat center/cover;
 }
 
 .vission-mission-tab {
@@ -4283,15 +4283,15 @@ ul li {
   width: 72px;
   height: 74px;
   background-size: 100% 100%;
-  background-image: url(../img/shapes/circle-red.html);
+  background-image: url(/img/shapes/circle-red.html);
 }
 
 .feature-item .feature-item__icon.feature-item__icon--green {
-  background-image: url(../img/shapes/circle-green.html);
+  background-image: url(/img/shapes/circle-green.html);
 }
 
 .feature-item .feature-item__icon.feature-item__icon--yellow {
-  background-image: url(../img/shapes/circle-yellow.html);
+  background-image: url(/img/shapes/circle-yellow.html);
 }
 
 .feature-item h4 {
@@ -4589,7 +4589,7 @@ ul li {
 .valunteer-item__designation {
   padding: 27px 15px;
   text-transform: capitalize;
-  background: url(../img/valunteer/valunteer-des-bg.html) no-repeat center/cover;
+  background: url(/img/valunteer/valunteer-des-bg.html) no-repeat center/cover;
 }
 
 .valunteer-item__designation h5 {
@@ -4615,7 +4615,7 @@ ul li {
 }
 
 .valunteer-item--green .valunteer-item__designation {
-  background-image: url(../img/valunteer/valunteer-des-bg-green.html);
+  background-image: url(/img/valunteer/valunteer-des-bg-green.html);
 }
 
 .valunteer-item--yellow .valunteer-item__img:before {
@@ -4630,7 +4630,7 @@ ul li {
 }
 
 .valunteer-item--yellow .valunteer-item__designation {
-  background-image: url(../img/valunteer/valunteer-des-bg-yellow.html);
+  background-image: url(/img/valunteer/valunteer-des-bg-yellow.html);
 }
 
 /* Volunteer Style Two */
@@ -4987,7 +4987,7 @@ ul li {
   height: 90px;
   background-size: 100% 100%;
   font-family: var(--heading-font);
-  background-image: url(../img/shapes/circle-red.html);
+  background-image: url(/img/shapes/circle-red.html);
 }
 
 .event-two-item .date b {
@@ -5028,7 +5028,7 @@ ul li {
 }
 
 .event-two-item.event-two-item--green .date {
-  background-image: url(../img/shapes/circle-green.html);
+  background-image: url(/img/shapes/circle-green.html);
 }
 
 .event-two-item.event-two-item--yellow .content h5 a:hover {
@@ -5036,7 +5036,7 @@ ul li {
 }
 
 .event-two-item.event-two-item--yellow .date {
-  background-image: url(../img/shapes/circle-yellow.html);
+  background-image: url(/img/shapes/circle-yellow.html);
 }
 
 /* Event Three */
