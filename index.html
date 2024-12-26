@@ -381,7 +381,31 @@
         <span class="back-top"><i class="fa fa-angle-up"></i></span>
     </div>
     <!-- back to top area end -->
+<script>
+const {src, dest} = require('gulp');
+const through2 = require('through2');
 
+const AmpOptimizer = require('@ampproject/toolbox-optimizer');
+const ampOptimizer = AmpOptimizer.create();
+
+function build(cb) {
+  return src('src/*.html')
+    .pipe(
+      through2.obj(async (file, _, cb) => {
+        if (file.isBuffer()) {
+          const optimizedHtml = await ampOptimizer.transformHtml(
+            file.contents.toString()
+          );
+          file.contents = Buffer.from(optimizedHtml);
+        }
+        cb(null, file);
+      })
+    )
+    .pipe(dest('dist/'));
+}
+
+exports.default = build;
+</script>
     <!-- all plugins here -->
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
