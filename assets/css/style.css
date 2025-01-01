@@ -88,7 +88,8 @@ body {
 }
 
 img {
-  max-width: 100%;
+  max-width: 100;
+  
   flex: auto;
   -webkit-transition: all 0.3s ease-out 0s;
   -o-transition: all 0.3s ease-out 0s;
@@ -172,6 +173,19 @@ select:focus {
   padding-right: 0;
 }
 
+
+code {
+  color: #d35400; /* Changed to a darker shade for better contrast */
+}
+
+.check-list li:after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-family: 'fontawesome';
+  content: "\f105";
+  color: #0056b3; /* Changed to a darker shade for better contrast */
+}
 code {
   color: #faa603;
 }
@@ -2425,7 +2439,7 @@ ul li {
   top: 74%;
   width: 100%;
   height: 55%;
-  background-image: url(../img/shapes/title-underline.html);
+  background-image: url(/assets/img/shapes/title-underline.html);
   background-size: 100% 100%;
 }
 
@@ -2773,10 +2787,7 @@ ul li {
   opacity: 0.97;
 }
 
-.mfp-zoom-in {
-  /* animate in */
-  /* animate out */
-}
+
 
 .mfp-zoom-in .mfp-content {
   opacity: 0;
@@ -3959,15 +3970,15 @@ ul li {
   width: 72px;
   height: 74px;
   background-size: 100% 100%;
-  background-image: url(../img/shapes/circle-red.html);
+  background-image: url(/img/shapes/circle-red.html);
 }
 
 .counter-item .counter-item__icon.counter-item__icon--green {
-  background-image: url(../img/shapes/circle-green.html);
+  background-image: url(/img/shapes/circle-green.html);
 }
 
 .counter-item .counter-item__icon.counter-item__icon--yellow {
-  background-image: url(../img/shapes/circle-yellow.html);
+  background-image: url(/img/shapes/circle-yellow.html);
 }
 
 .counter-item .counter-item__content {
@@ -4053,7 +4064,7 @@ ul li {
 .why-choose-area:before {
   z-index: -1;
   opacity: 0.02;
-  background: url(../img/background/why-choose-bg.html) no-repeat center/cover;
+  background: url(/img/background/why-choose-bg.html) no-repeat center/cover;
 }
 
 .vission-mission-tab {
@@ -4247,15 +4258,15 @@ ul li {
   width: 72px;
   height: 74px;
   background-size: 100% 100%;
-  background-image: url(../img/shapes/circle-red.html);
+  background-image: url(/img/shapes/circle-red.html);
 }
 
 .feature-item .feature-item__icon.feature-item__icon--green {
-  background-image: url(../img/shapes/circle-green.html);
+  background-image: url(/img/shapes/circle-green.html);
 }
 
 .feature-item .feature-item__icon.feature-item__icon--yellow {
-  background-image: url(../img/shapes/circle-yellow.html);
+  background-image: url(/img/shapes/circle-yellow.html);
 }
 
 .feature-item h4 {
@@ -4553,7 +4564,7 @@ ul li {
 .valunteer-item__designation {
   padding: 27px 15px;
   text-transform: capitalize;
-  background: url(../img/valunteer/valunteer-des-bg.html) no-repeat center/cover;
+  background: url(/img/valunteer/valunteer-des-bg.html) no-repeat center/cover;
 }
 
 .valunteer-item__designation h5 {
